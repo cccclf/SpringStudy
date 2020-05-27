@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--方式1：下标赋值-->
+<!--    <bean id="user" class="com.chen.pojo.User">-->
+<!--        <constructor-arg index="0" value="CLF"/>-->
+<!--    </bean>-->
+
+    <!--方式2，不建议使用-->
+<!--    <bean id="user" class="com.chen.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="ccclf"/>-->
+<!--    </bean>-->
+
+    <!--方式3：直接通过参数名来设置-->
+    <bean id="user" class="com.chen.pojo.User" name="user3 user4,user5">
+        <constructor-arg name="name" value="cccxh"/>
+    </bean>
+
+<!--    <bean id="user" class="com.chen.pojo.User"></bean>-->
+
+    <!--
+    id：bean 的唯一标识符，也就是相当于我们学的对象名
+    class：bean 对象锁对应的全限定名：包名 + 类名
+    name：也是别名，而且name更加高级，可以同时取多个别名，并且间隔可以用空格、"，"等分隔开
+    -->
+
+     <alias name="user" alias="user2"/>
+
+
+</beans>

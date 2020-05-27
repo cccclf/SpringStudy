@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learn-spring-proxy" />
+        <module name="learn-spring-mybatis" />
+        <module name="learn-spring-di" />
+        <module name="learn-spring-ioc2" />
+        <module name="learn-spring-aop" />
+        <module name="learn-spring-hellospring" />
+        <module name="learn-spring-annotation" />
+        <module name="learn-spring-transaction" />
+        <module name="learn-spring-annotation-java" />
+        <module name="learn-spring-appconfig" />
+        <module name="learn-spring-autowired" />
+        <module name="learn-spring-1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SpringLearning</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>learn-spring-1</module>
+        <module>learn-spring-hellospring</module>
+        <module>learn-spring-ioc2</module>
+        <module>learn-spring-di</module>
+        <module>learn-spring-autowired</module>
+        <module>learn-spring-annotation</module>
+        <module>learn-spring-appconfig</module>
+        <module>learn-spring-proxy</module>
+        <module>learn-spring-aop</module>
+        <module>learn-spring-mybatis</module>
+        <module>learn-spring-transaction</module>
+        <module>learn-spring-annotation-java</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.6.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>
